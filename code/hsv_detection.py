@@ -112,9 +112,9 @@ def main():
 		if img is not None:
 			# 200次以内先做提醒，将颜色块放在矩形框中
 			if count < 200:
-				cv2.putText(img, 'please put the color being tested ', (30, 30), cv2.FONT_HERSHEY_SIMPLEX, 1.2,
+				cv2.putText(img, 'please put the color being', (30, 30), cv2.FONT_HERSHEY_SIMPLEX, 1.2,
 							(0, 255, 0), 2, cv2.LINE_AA)
-				cv2.putText(img, 'in rectangle box!', (30, 80), cv2.FONT_HERSHEY_SIMPLEX, 1.2,
+				cv2.putText(img, 'tested in rectangle box!', (30, 80), cv2.FONT_HERSHEY_SIMPLEX, 1.2,
 							(0, 255, 0), 2, cv2.LINE_AA)
 			# 如果在200-500次以内开始收集hsv值，并求出平均值
 			elif count > 200 and count < 200+collect_times:
