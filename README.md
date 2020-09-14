@@ -1,4 +1,3 @@
-# spark_compitition_upgrade
 # spark比赛程序升级
 
 描述：
