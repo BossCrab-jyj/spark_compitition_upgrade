@@ -89,7 +89,7 @@ def image_callback():
 		key = cv2.waitKey(10)
 		if key == ord('q'):
 			break
-		capture.release()
+	capture.release()
 	cv2.destroyAllWindows()
 
 def command_callback(data):
