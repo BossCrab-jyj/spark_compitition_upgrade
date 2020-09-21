@@ -49,7 +49,11 @@
 ## 3.修改权限
 `spark@spark:~/Downloads/spark_compitition_upgrade/code$ cd ~/spark`
 
+`spark@spark:~/spark$ sudo chown spark onekey.sh`
+
 `spark@spark:~/spark$ sudo chmod 755 onekey.sh`
+
+`spark@spark:~/spark$ sudo chown spark -R src/`
 
 `spark@spark:~/spark$ sudo chmod 755 -R src/`
 
